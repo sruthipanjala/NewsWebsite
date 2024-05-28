@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        .headline {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        
+        .headline img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .headline-content {
+            padding: 20px;
+        }
+        
+        .headline-content h2 {
+            margin-top: 0;
+        }
+        
+        .headline-content p {
+            margin-bottom: 0;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Latest News</h1>
+    </header>
+    <div class="container">
+        <div class="headline">
+            <img src="https://static.toiimg.com/thumb/imgsize-127076,msid-78962542,width-400,resizemode-4/78962542.jpg" alt="Breaking News">
+            <div class="headline-content">
+                <h2>Breaking News: Natural disasters that hit the world hard</h2>
+                <p>Heavy rains triggered flash floods in parts of Himachal Pradesh and the Jammu region on July 12, disrupting normal life. Flood swept away buildings and cars at tourist spots. In the first twenty years of this century, natural disasters
+                    killed 60,000 people on average per year. In the wake of recent lightning and flash flood incidents, let’s take a look at the increasing number of natural disaster events and their toll on human life..</p>
+            </div>
+        </div>
+        <div class="headline">
+            <img src="https://images.moneycontrol.com/static-mcnews/2021/07/AP21193389703866-e1626147548358.jpg" alt="World News">
+            <div class="headline-content">
+                <h2>A look at the growing number of natural disasters around the world</h2>
+                <p> Heavy rains triggered flash floods in parts of Himachal Pradesh and the Jammu region on July 12, disrupting normal life. Flood swept away buildings and cars at tourist spots. In the first twenty years of this century, natural disasters
+                    killed 60,000 people on average per year.</p>
+            </div>
+        </div>
+</div>
+    <footer>
+        <p>@ Latest News</p>
+    </footer>
+</body>
+</html>
